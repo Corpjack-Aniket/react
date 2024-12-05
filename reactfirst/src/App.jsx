@@ -2,6 +2,7 @@ import React from "react";
 import ClassComp1 from "./conditionalRendering/ClassComp1";
 import Component1 from "./conditionalRendering/Component1"
 import Component2 from "./conditionalRendering/component2";
+import Student from "./List/Array Rendering/Student";
 
 
 function App() {
@@ -32,7 +33,8 @@ function App() {
       {/* {name =="Aniket" && <h1>Hello Aniket</h1>} //! logically operator basicalyy use when the condition is always true if it false it will not print any thing. */}
     {/* {age>=18?<h1>You can Vote 😊😊😊</h1>:<h1>You can't vote😂😂😂</h1>} */}
     {/* {name=="Aniket"?<Component1/>:<Component2/>} */}
-    <ClassComp1/>
+    {/* <ClassComp1/> */}
+    <Student/>
     </div>
   )
  
