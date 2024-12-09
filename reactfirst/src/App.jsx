@@ -11,7 +11,7 @@ function App() {
   //   return <Component1/>
   // }else{
   //   return <Component2/>
-  // }
+  // } 
 
 
   // const name = "Aniket";
