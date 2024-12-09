@@ -3,6 +3,8 @@ import ClassComp1 from "./conditionalRendering/ClassComp1";
 import Component1 from "./conditionalRendering/Component1"
 import Component2 from "./conditionalRendering/component2";
 import Student from "./List/Array Rendering/Student";
+import Demo from "./styling/Demo";
+
 
 
 function App() {
@@ -34,7 +36,9 @@ function App() {
     {/* {age>=18?<h1>You can Vote 😊😊😊</h1>:<h1>You can't vote😂😂😂</h1>} */}
     {/* {name=="Aniket"?<Component1/>:<Component2/>} */}
     {/* <ClassComp1/> */}
-    <Student/>
+    {/* <Student/> */}
+    <Demo/>
+    
     </div>
   )
  
