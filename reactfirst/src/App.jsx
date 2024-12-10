@@ -7,6 +7,7 @@ import Demo from "./styling/Demo";
 import ExternalCss from "./styling/ExternalCss";
 import Style1 from "./styling/Style1";
 import Style2 from "./styling/Style2";
+import BsComp from "./Bootstrap/BsComp";
 
 
 
@@ -43,8 +44,9 @@ function App() {
     {/* <Demo/> */}
     {/* <ExternalCss check = {true}/> */}
     //! name conflicting in external css issue 
-    <Style1/>
-    <Style2/>
+    {/* <Style1/>
+    <Style2/> */}
+    <BsComp/>
     </div>
   )
  
