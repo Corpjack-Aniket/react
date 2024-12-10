@@ -4,6 +4,9 @@ import Component1 from "./conditionalRendering/Component1"
 import Component2 from "./conditionalRendering/component2";
 import Student from "./List/Array Rendering/Student";
 import Demo from "./styling/Demo";
+import ExternalCss from "./styling/ExternalCss";
+import Style1 from "./styling/Style1";
+import Style2 from "./styling/Style2";
 
 
 
@@ -37,8 +40,11 @@ function App() {
     {/* {name=="Aniket"?<Component1/>:<Component2/>} */}
     {/* <ClassComp1/> */}
     {/* <Student/> */}
-    <Demo/>
-    
+    {/* <Demo/> */}
+    {/* <ExternalCss check = {true}/> */}
+    //! name conflicting in external css issue 
+    <Style1/>
+    <Style2/>
     </div>
   )
  
